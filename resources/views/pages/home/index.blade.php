@@ -3,7 +3,7 @@
 
 
 @section('content')
-  <!---Banner Section --- >
+  <!---Banner Section--->
   @include("pages.home.includes.banner")
  
 @endsection
