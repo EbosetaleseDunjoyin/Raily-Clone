@@ -5,6 +5,7 @@
     --black: #000000;
     --white: #ffffff;
     --green: #a7f9c3;
+    --d-green: #5bff9d;
     --purple: #9a5bff;
     --l-black: #252525;
 }
@@ -80,6 +81,10 @@ body {
     font-size: 48px;
 }
 
+.f-50 {
+    font-size: 50px;
+}
+
 .f-60 {
     font-size: 60px;
 }
@@ -87,6 +92,12 @@ body {
 .f-68 {
     font-size: 68px;
 }
+
+.f-80 {
+    font-size: 80px;
+    /* font-size: clamp(54px, 2.5vw, 80px); */
+}
+
 
 
 /**Font weights */
@@ -122,10 +133,76 @@ body {
     font-weight: 800;
 }
 
+/* Backgroumd styles */
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-dgreen {
+    background-color: var(--d-green);
+}
+
+.bg-lblack {
+    background-color: var(--l-black);
+}
+
+/* Button Style  */
+.button {
+    padding: 10px 24px;
+    border-radius: 100px;
+}
+
+.subform {
+    gap: 20px;
+}
+
+.subform input {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10em;
+    margin-bottom: 0;
+    padding: 12px 20px;
+    font-size: 1rem;
+    transition: border-color .2s cubic-bezier(.77, 0, .175, 1);
+    width: 270px;
+
+}
+
+.subform input::placeholder {
+    color: #ffffff;
+}
+
+.subform button {
+
+    color: var(--black);
+    background-color: var(--green);
+    border-radius: 10em;
+
+    padding: 12px 20px;
+    font-size: 1rem;
+    line-height: 110%;
+
+}
+
+.box-star {
+    gap: 5px;
+
+}
+
+.box-star img {
+    width: 72px;
+    height: auto;
+}
+
 /* Header Css  */
 /* header {} */
 
-header .navbar-brand img{
+header .navbar-brand img {
     width: 105px;
     height: auto;
 }
@@ -154,6 +231,12 @@ header .nav-link.active {
 
 header .navbar-toggler {
     padding: 0;
+    border: none;
+}
+
+header .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 header .navbar-toggler img {
@@ -161,43 +244,7 @@ header .navbar-toggler img {
     height: 40px;
 }
 
-@media screen and (max-width:991px) {
-    header .navbar-brand img{
-        width: 90px;
-        
-    }
 
-    header #navbarSupportedContent {
-        padding: 30px 0;
-        background-color: var(--black);
-
-    }
-
-    header .navbar-nav {
-        padding: 24px 0;
-        -webkit-backdrop-filter: blur(1em);
-        backdrop-filter: blur(1em);
-        background-color: rgba(120, 120, 120, .36);
-        border-radius: 1em;
-    }
-
-    header .nav-link {
-        padding: 10px 30px !important;
-        font-size: 16px;
-
-    }
-
-
-}
-
-@media (min-width:992px) and (max-width:1200px) {
-    header .nav-link {
-        padding: 4px 16px !important;
-
-    }
-
-
-}
 
 #body {
     padding-top: 75px;
@@ -214,4 +261,111 @@ header .navbar-toggler img {
     #banner .im-hiro-phon {
         width: 230px;
     }
+}
+
+
+#meetup {}
+
+#meetup .header-text h3:first-child {
+    font-size: 80px;
+}
+
+#meetup .header-text h3:last-child {
+    font-size: 52px;
+}
+
+#meetup .image-meet,
+#meetup .text-box {
+    width: 200px;
+}
+
+#meetup .image-box .v-line {
+    width: 2px;
+}
+
+#meetup .meetup-imageslide,
+#meetup .meetup-imagetext {
+    gap: 0 5%;
+}
+
+#raily-ecosystem {}
+
+#raily-ecosystem .header-text h3 {
+    font-size: 88px;
+}
+
+#raily-ecosystem .image-collage {
+    position: relative;
+}
+
+#raily-ecosystem .image-collage .railyBg {
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    z-index: 0;
+}
+
+#raily-ecosystem .image-collage .railyBg img:first-child {
+    width: 90%;
+    height: auto;
+}
+
+#raily-ecosystem .image-collage .box-logo-mach img:first-child {
+    width: 40px;
+    height: auto;
+}
+
+#raily-ecosystem .image-collage .box-logo-mach {
+    gap: 20px;
+}
+
+#raily-ecosystem .image-collage .box-logo-mach .im-ligo-mach {
+    width: 80px;
+    height: auto;
+}
+
+#raily-ecosystem .image-collage .middle-data {
+    position: relative;
+    z-index: 10;
+}
+
+#raily-ecosystem .image-collage .block-mach-absolut {
+    position: absolute;
+    top: -10px;
+    left: -10%;
+}
+
+#raily-ecosystem .image-collage .block-mach-absolut .in-mach {
+    width: 50%;
+}
+
+#raily-ecosystem .image-collage .box-im-mach {
+    width: 71em;
+    height: 90em;
+    position: relative;
+    overflow: hidden;
+}
+
+#raily-ecosystem .image-collage .block-mach-absolut .teg-mach-ar .icon-teg {
+    width: 30px;
+}
+
+#raily-ecosystem .image-collage .block-mach-absolut .teg-mach-ar .text-29 {
+    font-size: 21px;
+}
+
+#raily-ecosystem .image-collage .block-mach-absolut .teg-mach-ar {
+    z-index: 2;
+    gap: 40px;
+    background-color: #252525;
+    border: 1px solid #626262;
+    border-radius: 10em;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 30px;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    
 }

@@ -3,7 +3,7 @@
   <div class="container-fluid px-md-4">
   
     <a class="navbar-brand " href="/">
-        <img src="{{ asset('images/logo.svg') }}" loading="eager" alt="Logo" class="image-logo">
+        <img src="./images/logo.svg" loading="eager" alt="Logo" class="image-logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <img src="{{ asset('images/hambuger-icon.svg') }}" loading="lazy" alt="" class="image-73">

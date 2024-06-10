@@ -1,0 +1,70 @@
+@media screen and (max-width:600px) {
+
+    #meetup .image-meet {
+        width: 80%;
+    }
+
+    #meetup .text-box {
+        width: 100%;
+
+    }
+
+    #meetup .text-box p {
+        font-size: 16px !important;
+
+    }
+
+    #raily-ecosystem .header-text h3 {
+        font-size: 48px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    header .navbar-brand img {
+        width: 90px;
+
+    }
+
+    header #navbarSupportedContent {
+        padding: 30px 0;
+        background-color: var(--black);
+
+    }
+
+    header .navbar-nav {
+        padding: 24px 0;
+        -webkit-backdrop-filter: blur(1em);
+        backdrop-filter: blur(1em);
+        background-color: rgba(120, 120, 120, .36);
+        border-radius: 1em;
+    }
+
+    header .nav-link {
+        padding: 10px 30px !important;
+        font-size: 16px;
+
+    }
+
+    .subform input,
+    .subform button {
+        width: 100%;
+        height: 60px;
+        font-size: 18px
+    }
+
+    #raily-ecosystem .header-text h3 {
+        font-size: 48px;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    header .nav-link {
+        padding: 4px 16px !important;
+
+    }
+
+
+}
