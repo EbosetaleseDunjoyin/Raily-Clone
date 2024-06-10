@@ -332,7 +332,7 @@ header .navbar-toggler img {
 #raily-ecosystem .image-collage .block-mach-absolut {
     position: absolute;
     top: -10px;
-    left: -10%;
+    left: -15%;
 }
 
 #raily-ecosystem .image-collage .block-mach-absolut .in-mach {
@@ -350,11 +350,19 @@ header .navbar-toggler img {
     width: 30px;
 }
 
-#raily-ecosystem .image-collage .block-mach-absolut .teg-mach-ar .text-29 {
+#raily-ecosystem .image-collage .text-29 {
     font-size: 21px;
 }
 
-#raily-ecosystem .image-collage .block-mach-absolut .teg-mach-ar {
+#raily-ecosystem .image-collage .teg-mach-ar {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+#raily-ecosystem .image-collage .teg-mach-ar,
+#raily-ecosystem .image-collage .teg-mach-xr,
+#raily-ecosystem .image-collage .teg-mach-smart {
     z-index: 2;
     gap: 40px;
     background-color: #252525;
@@ -362,10 +370,65 @@ header .navbar-toggler img {
     border-radius: 10em;
     justify-content: flex-start;
     align-items: center;
-    padding: 8px 30px;
+    padding: 8px 24px;
     display: flex;
+
+
+}
+
+#raily-ecosystem .image-collage .block-mach-4 {
     position: absolute;
-    top: 5%;
-    left: 45%;
-    
+    top: -50px;
+    right: -20%;
+}
+
+
+#raily-ecosystem .image-collage .box-im-mach-3 img {
+    width: 50%;
+}
+
+#raily-ecosystem .image-collage .teg-mach-xr {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+}
+
+#raily-ecosystem .image-collage img.icon-teg {
+    width: 30px;
+}
+
+#raily-ecosystem .image-collage .block-mach-2 {
+    position: absolute;
+    bottom: -27%;
+    left: 23%;
+}
+
+#raily-ecosystem .image-collage .box-im-mach-2 img {
+    width: 50%;
+}
+
+#raily-ecosystem .image-collage .teg-mach-smart {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+#raily-ecosystem .image-collage .block-mach-3 {
+    position: absolute;
+    bottom: -20%;
+    right: 0%;
+}
+
+
+#raily-ecosystem .image-collage .box-im-mach-3 img {
+    width: 50%;
+}
+
+
+
+#raily-ecosystem .image-collage .teg-mach-smart.app {
+    position: absolute;
+    bottom: 20%;
+    right: 100%;
+   
 }
